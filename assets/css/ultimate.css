@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.video-js.ultimate-theme .vjs-control-bar {
+    flex-wrap: wrap;
+    height: 6em;
+    background: transparent;
+}
+
+.video-js.ultimate-theme div.vjs-progress-control.vjs-control {
+    width: 100%;
+    height: 1.5em;
+}
+
+.video-js.ultimate-theme .vjs-control-bar .vjs-control {
+    height: 4.5em;
+}
+
+.video-js.ultimate-theme .vjs-quality-selector {
+    margin-left: auto;
+}
+
+.video-js.ultimate-theme .vjs-button>.vjs-icon-placeholder:before {
+    font-size: 2.5em;
+    line-height: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease-in-out;
+}
+
+.video-js.ultimate-theme .vjs-volume-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-js.ultimate-themes .vjs-volume-bar {
+    margin: 0;
+    height: .5em;
+}
+
+.video-js.ultimate-theme .vjs-volume-panel .vjs-volume-control.vjs-slider-active.vjs-volume-horizontal,
+.video-js.ultimate-theme .vjs-volume-panel .vjs-volume-control:active.vjs-volume-horizontal,
+.video-js.ultimate-theme .vjs-volume-panel.vjs-hover .vjs-mute-control~.vjs-volume-control.vjs-volume-horizontal,
+.video-js.ultimate-themes .vjs-volume-panel.vjs-hover .vjs-volume-control.vjs-volume-horizontal,
+.video-js.ultimate-theme .vjs-volume-panel:active .vjs-volume-control.vjs-volume-horizontal,
+.video-js.ultimate-theme .vjs-volume-panel:focus .vjs-volume-control.vjs-volume-horizontal {
+    height: 100%;
+}
+
+.video-js.ultimate-theme .vjs-menu-button-popup .vjs-menu {
+    width: 7em;
+    left: -1.5em;
+}
+
+.video-js.ultimate-theme .vjs-menu-content {
+    bottom: 2.5em;
+}
+
+.video-js.ultimate-theme .vjs-big-play-button {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-js.ultimate-theme.vjs-controls-disabled .vjs-big-play-button,
+.video-js.ultimate-theme.vjs-error .vjs-big-play-button,
+.video-js.ultimate-theme.vjs-has-started .vjs-big-play-button,
+.video-js.ultimate-theme.vjs-using-native-controls .vjs-big-play-button {
+    display: none;
+}
+
+.video-js.ultimate-theme .vjs-big-play-button .vjs-icon-placeholder:before {
+    line-height: 1.2em;
+    font-size: 2em;
+}
+
+.video-js.ultimate-theme .vjs-fullscreen-control.vjs-button:hover>.vjs-icon-placeholder:before {
+    transform: scale(1.25);
+}
+
+.vjs-menu-button.vjs-menu-button-popup.vjs-button .vjs-icon-placeholder {
+    transition: .3s ease-in-out;
+}
+
+.vjs-menu-button.vjs-menu-button-popup.vjs-button[aria-expanded="true"] .vjs-icon-placeholder,
+.vjs-menu-button.vjs-menu-button-popup.vjs-button:hover .vjs-icon-placeholder {
+    transform: rotate(30deg)translate(0, 0);
+}
+
+.video-js.ultimate-theme .vjs-icon-placeholder {
+    height: 100%;
+}
+
+.video-js.ultimate-theme {
+    overflow: hidden;
+}
+
+.video-js.ultimate-theme .vjs-menu li {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.video-js.ultimate-theme .vjs-play-progress {
+    background: red;
+}
+
+.video-js.ultimate-theme .vjs-load-progress{
+    background-color: white;
+}
+
+.video-js.ultimate-theme .vjs-current-time.vjs-control, .video-js.ultimate-theme .vjs-duration.vjs-control, .video-js.ultimate-theme .vjs-time-control.vjs-time-divider{
+    display: block;
+    height: 45px;
+    line-height: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 .25rem;
+    font-size: 1.2em;
+    min-width: unset;
+}
+.video-js.ultimate-theme button{
+    outline: 0;
+}
